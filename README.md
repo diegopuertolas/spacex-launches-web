@@ -52,8 +52,8 @@ Se utiliza la [SpaceX API v5](https://github.com/r-spacex/SpaceX-API) para obten
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/curso-astro-demo.git
-   cd curso-astro-demo
+   git clone https://github.com/diegopuertolas/spacex-launches-web.git
+   cd spacex-launches-web
    ```
 2. Instala las dependencias:
    ```bash
