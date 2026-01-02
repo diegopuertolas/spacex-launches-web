@@ -1,7 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { getLatestLaunches } from '../../services/spacex';
-import { getLaunchById } from '../../services/spacex';
+import { getLatestLaunches, getOldestLaunches, getLaunchById } from '../../services/spacex';
 
 const { id } = Astro.params;
 
@@ -12,7 +11,12 @@ if (id) {
 
 export async function getStaticPaths() {
   
-  const launches = await getLatestLaunches()
+  const latest = await getLatestLaunches();
+  const oldest = await getOldestLaunches();
+
+  // Unimos y eliminamos duplicados por id
+  const all = [...latest, ...oldest];
+  const launches = Array.from(new Map(all.map(l => [l.id, l])).values());
 
   return launches.map(launch => ({ params: { id: launch.id } }));
 }
@@ -20,13 +24,13 @@ export async function getStaticPaths() {
 <Layout title={`Lanzamiento ${id}`}>
   <article class=" rounded-lg border shadow-md bg-gray-800 border-gray-700
   hover:scale-105 hover:bg-gray-700 hover:border-gray-500 transition
-  flex flex-col items-center p-8 gap-4">
+  flex flex-col items-center p-8 gap-4 max-w-xl mx-auto my-8">
     <img 
-      class="w-52 h-auto " 
+      class="w-52 h-auto" 
       src={launch?.links?.patch.small} 
-      alt={launch?.name} 
+      
     />
     <h2 class="text-4xl text-white font-bold">Launch #{launch?.flight_number}</h2>
-    <p class="text-lg ">{launch?.details}</p>
+    <p class="text-lg ">{launch?.details || "No details available."}</p>
   </article>
 </Layout>
