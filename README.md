@@ -6,7 +6,7 @@
 
 ---
 
-Proyecto desarrollado por **Diego Puértolas Ruiz** para mostrar información sobre los lanzamientos de SpaceX de forma visual y moderna.
+Proyecto desarrollado para mostrar información sobre los lanzamientos de SpaceX de forma visual y moderna.
 
 ## Tecnologías utilizadas
 
