@@ -68,5 +68,7 @@ Se utiliza la [SpaceX API v5](https://github.com/r-spacex/SpaceX-API) para obten
 ## Autor
 
 **Diego Puértolas Ruiz**  
+
 Proyecto realizado siguiendo el [tutorial de astro](https://www.youtube.com/watch?v=RB5tR_nqUEw&t=57s) por [@midudev](https://github.com/midudev) con pequeños detalles extras añadidos para mejorar el proyecto.
+
 ---
