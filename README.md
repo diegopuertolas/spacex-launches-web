@@ -16,11 +16,6 @@ Proyecto desarrollado para mostrar información sobre los lanzamientos de SpaceX
 - **API SpaceX** v5 — Consumo de la API pública de SpaceX para obtener datos de lanzamientos.
 - **Vite** — Bundler rápido para desarrollo y producción.
 
-## Requisitos previos
-
-- [Node.js](https://nodejs.org/) >= v22.19.0
-- [pnpm](https://pnpm.io/) >= v10.26.2
-
 ## Estructura de carpetas
 
 ```
