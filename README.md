@@ -18,8 +18,8 @@ Proyecto desarrollado para mostrar información sobre los lanzamientos de SpaceX
 
 ## Requisitos previos
 
-- [Node.js](https://nodejs.org/) >= 22.19.0
-- [pnpm](https://pnpm.io/) >= 10.26.2
+- [Node.js](https://nodejs.org/) >= v22.19.0
+- [pnpm](https://pnpm.io/) >= v10.26.2
 
 ## Estructura de carpetas
 
@@ -69,6 +69,6 @@ Se utiliza la [SpaceX API v5](https://github.com/r-spacex/SpaceX-API) para obten
 
 **Diego Puértolas Ruiz**  
 
-Proyecto realizado siguiendo el [tutorial de astro](https://www.youtube.com/watch?v=RB5tR_nqUEw&t=57s) por [@midudev](https://github.com/midudev) con pequeños detalles extras añadidos para mejorar el proyecto.
+Proyecto realizado siguiendo el [tutorial de astro](https://www.youtube.com/watch?v=RB5tR_nqUEw&t=57s) por [@midudev](https://github.com/midudev) con detalles extras añadidos para mejorar el proyecto.
 
 ---
