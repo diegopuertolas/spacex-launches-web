@@ -2,8 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/spacex",
-      "permanent": true
+      "destination": "/spacex"
     }
   ]
 }
