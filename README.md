@@ -16,6 +16,7 @@ Proyecto desarrollado para mostrar información sobre los lanzamientos de SpaceX
 - **API SpaceX** v5 — Consumo de la API pública de SpaceX para obtener datos de lanzamientos.
 - **Vite** — Bundler rápido para desarrollo y producción.
 
+
 ## Estructura de carpetas
 
 ```
